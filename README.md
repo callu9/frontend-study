@@ -3,13 +3,17 @@
 2025년 1월부터 진행하는 개인 스터디 자료
 
 - HTML
-  - [MDN](https://developer.mozilla.org/ko/docs/Web/HTML)
+  - 🔗 [MDN](https://developer.mozilla.org/ko/docs/Web/HTML)
 - CSS
-  - [MDN](https://developer.mozilla.org/ko/docs/Learn_web_development/Core/Styling_basics)
-  - [W3Schools](https://www.w3schools.com/css/default.asp)
+  - 🔗 [MDN](https://developer.mozilla.org/ko/docs/Learn_web_development/Core/Styling_basics)
+  - 🔗 [W3Schools](https://www.w3schools.com/css/default.asp)
 - Javascript
+  - 🔗 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - 📖 모던 자바스크립트 Deep Dive
 - Typescript
-- [React.js](https://ko.legacy.reactjs.org/docs/getting-started.html)
+- React.js
+  - 🔗 [React.js Docs](https://ko.legacy.reactjs.org/docs/getting-started.html)
+  - 📖모던 리액트 Deep Dive
 - [Next.js](https://nextjs.org/docs)
 
 ## HTML
@@ -24,7 +28,10 @@
 
 ### 📖 모던 자바스크립트 Deep Dive
 
-- [6. 데이터 타입](./javascript-deep-dive/06_data_type.md)
+- [06. 데이터 타입](./javascript-deep-dive/06_data_type.md)
+- [08. 제어문](./javascript-deep-dive/08_control_flow_statement.md)
+- [09. 타입 변환과 단축 평가](./javascript-deep-dive/09_type_conversion_and_short_circuit_evaluation.md)
+- [13. 스코프](./javascript-deep-dive/13_scope.md) ⭐️
 
 ## React.js
 
