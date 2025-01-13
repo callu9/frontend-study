@@ -121,6 +121,16 @@ Node.js는 자바스크립트를 브라우저 이외의 환경에서도 동작�
 
 ## 2.4. 자바스크립트와 ECMAScript
 
+### ECMAScript
+
+자바스크립트의 표준 사양인 ECMA-262를 말하며, <br/>프로그래밍 언어의 값, 타입, 객체와 프로퍼티, 함수, 표준 빌트인 객체(standard built-in object) 등 핵심 문법을 규정한다.
+
+자바스크립트란, 기본 뼈대인 ECMAScript와 브라우저가 별도 지원하는 **클라이언트 사이드 Web API**를 아우르는 개념.
+- 클라이언트 사이드 Web API
+  - DOM, BOM, Canvas, XMLHttpRequest, fetch, requestAnimationFrame, SVG, Web Storage, Web Component, Web Worker... 등
+  - ECMAScript와는 별도로 월드 와이드 웹 콘소시엄(World Wide Consortium:W3C)에서 별도의 사양으로 관리
+  - 자세한 내용은 [MDN web docs : Web API](https://developer.mozilla.org/ko/docs/Web/API) 페이지 참고
+
 ## 2.5. 자바스크립트의 특징
 
 ## 2.6. ES6 브라우저 지원 현황
