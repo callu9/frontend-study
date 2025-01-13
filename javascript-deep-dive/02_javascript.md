@@ -126,13 +126,33 @@ Node.js는 자바스크립트를 브라우저 이외의 환경에서도 동작�
 자바스크립트의 표준 사양인 ECMA-262를 말하며, <br/>프로그래밍 언어의 값, 타입, 객체와 프로퍼티, 함수, 표준 빌트인 객체(standard built-in object) 등 핵심 문법을 규정한다.
 
 자바스크립트란, 기본 뼈대인 ECMAScript와 브라우저가 별도 지원하는 **클라이언트 사이드 Web API**를 아우르는 개념.
+
 - 클라이언트 사이드 Web API
   - DOM, BOM, Canvas, XMLHttpRequest, fetch, requestAnimationFrame, SVG, Web Storage, Web Component, Web Worker... 등
   - ECMAScript와는 별도로 월드 와이드 웹 콘소시엄(World Wide Consortium:W3C)에서 별도의 사양으로 관리
-  - 자세한 내용은 [MDN web docs : Web API](https://developer.mozilla.org/ko/docs/Web/API) 페이지 참고
+  - 참고: [MDN web docs - Web API](https://developer.mozilla.org/ko/docs/Web/API)
 
 ## 2.5. 자바스크립트의 특징
+
+- HTML, CSS와 함께 웹을 구성하는 요소 중 하나로 **웹 브라우저에서 동작하는 유일한 프로그래밍 언어**이며, 별도의 컴파일 작업을 수행하지 않는 **인터프리터 언어** (interpreter language)
+- <ins>모던 자바스크립트 엔진</ins>은 인터프리터와 컴파일러의 장점을 결합해 일부 소스코드를 컴파일하고 실행하여, 인터프리터 언어의 장점인 동적 기능 지원을 유지하고 실행 속도가 느리다는 단점을 해결
+  - 크롬 V8, 파이어폭스 SpiderMonkey, 사파리 JavaScriptCore, 마이크로소프트 엣지 Chakra 등
+- 자바스크립트는 명령형, 함수형, **프로토타입 기반 객체지향** 프로그래밍을 지원하는 멀티 패러다임 언어
+
+### 인터프리터 언어 vs. 컴파일러 언어
+
+|     | 컴파일러 언어 | 인터프리터 언어 |
+| --- | --- | --- |
+| **변환 및 실행** | 코드 실행 전 단계인 컴파일 타임에 소스코드 전체를 머신코드로 변환 후 실행 | 코드 실행 단계인 런타임에 문 단위로 한 줄씩 바이트코드로 변환 후 실행 |
+| **실행 파일 생성** |    O    |    X    |
+| **실행 단계 분리** |    O    |    X    |
+| **수행 횟수**      |   1번   | 코드 실행될 때마다 반복 수행 |
+| **코드 실행 속도** |  빠르다  |  비교적 느리다 | 
+
 
 ## 2.6. ES6 브라우저 지원 현황
 
 https://caniuse.com/ 참고
+
+- 브라우저에서 아직 지원하지 않는 최신 기능을 사용하거나 인터넷 익스플로러나 구형 브라우저를 고려해야하는 상황이라면?<br />
+: 바벨(Babel)과 같은 트랜스파일러를 사용해 ES6 이상의 사양으로 구현한 소스코드를 ES5 이하의 사양으로 다운그레이드
