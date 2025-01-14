@@ -30,6 +30,7 @@
 
 - [02. 자바스크립트란?](./javascript-deep-dive/02_javascript.md)
 - [04. 변수](./javascript-deep-dive/04_variable.md)
+- [5. 표현식과 문](./javascript-deep-dive/05_expression_and_statement.md)
 - [06. 데이터 타입](./javascript-deep-dive/06_data_type.md)
 - [08. 제어문](./javascript-deep-dive/08_control_flow_statement.md)
 - [09. 타입 변환과 단축 평가](./javascript-deep-dive/09_type_conversion_and_short_circuit_evaluation.md)
