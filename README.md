@@ -35,6 +35,8 @@
 - [07. 연산자](./javascript-deep-dive/07_operator.md)
 - [08. 제어문](./javascript-deep-dive/08_control_flow_statement.md)
 - [09. 타입 변환과 단축 평가](./javascript-deep-dive/09_type_conversion_and_short_circuit_evaluation.md)
+- [10. 객체 리터럴](./javascript-deep-dive/10_object_literal.md)
+- [11. 원시 값과 객체의 비교](./javascript-deep-dive/11_comparing_primitive_value_and_object.md)
 - [13. 스코프](./javascript-deep-dive/13_scope.md) ⭐️
 
 참고: [예제 코드 모음](https://github.com/wikibook/mjs)
