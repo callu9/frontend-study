@@ -39,6 +39,7 @@
 - [11. 원시 값과 객체의 비교](./javascript-deep-dive/11_comparing_primitive_value_and_object.md)
 - [12. 함수](./javascript-deep-dive/12_function.md)
 - [13. 스코프](./javascript-deep-dive/13_scope.md) ⭐️
+- [14. 전역 변수의 문제점](./javascript-deep-dive/14_problems_of_global_variable.md)
 
 참고: [예제 코드 모음](https://github.com/wikibook/mjs)
 
