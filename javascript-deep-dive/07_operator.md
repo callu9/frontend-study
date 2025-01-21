@@ -354,7 +354,7 @@ num **= 2;  // → 25
 | `?.` | 옵셔널 체이닝 연산자 | [9.4.2. 옵셔널 체이닝 연산자](./09_type_conversion_and_short_circuit_evaluation.md#942-옵셔널-체이닝-연산자) |
 | `??` | null 병합 연산자 | [9.4.3. null 병합 연산자](./09_type_conversion_and_short_circuit_evaluation.md#943-null-병합-연산자) |
 | `delete` | 프로퍼티 삭제 | [10.8. 프로퍼티 삭제](./10_object_literal.md#108-프로퍼티-삭제) |
-| `new` | 생성자 함수를 호출할 때 사용하여 인스턴스를 생성 | [17.2.6. new 연산자](./17_object_by_constructor_function.md#1726-new-연산자) |
+| `new` | 생성자 함수를 호출할 때 사용하여 인스턴스를 생성 | [17.2.6. new 연산자](./17_object_by_constructor.md#1726-new-연산자) |
 | `instanceof` | 좌변의 객체가 우변의 생성자 함수와 연결된 인스턴스인지 판별 | [19.10. instanceof 연산자](./19_prototype.md#1910-instanceof-연산자) |
 | `in` | 프로퍼티 존재 확인 | [19.13.1. in 연산자](./19_prototype.md#19131-in-연산자) |
 
