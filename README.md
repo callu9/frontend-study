@@ -44,6 +44,7 @@
 - [16. 프로퍼티 어트리뷰트](./javascript-deep-dive/16_property_attribute.md)
 - [17. 생성자 함수에 의한 객체 생성](./javascript-deep-dive/17_object_by_constructor.md)
 - [18. 함수와 일급 객체](./javascript-deep-dive/18_function_and_first_class_object.md)
+- [19. 프로토타입](./javascript-deep-dive/19_prototype.md) ⭐️
 
 참고: [예제 코드 모음](https://github.com/wikibook/mjs)
 
