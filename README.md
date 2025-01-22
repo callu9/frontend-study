@@ -46,6 +46,7 @@
 - [18. 함수와 일급 객체](./javascript-deep-dive/18_function_and_first_class_object.md)
 - [19. 프로토타입](./javascript-deep-dive/19_prototype.md) ⭐️
 - [21. 빌트인 객체](./javascript-deep-dive/21_built_in_object.md)
+- [22. this](./javascript-deep-dive/22_this.md)
 
 참고: [예제 코드 모음](https://github.com/wikibook/mjs)
 
