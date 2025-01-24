@@ -34,6 +34,7 @@
 - [22. this](./javascript-deep-dive/22_this.md) ⭐️⭐️
 - [23. 실행 컨텍스트](./javascript-deep-dive/23_execution_context.md) ⭐️⭐️
 - [24. 클로저](./javascript-deep-dive/24_closure.md) ⭐️⭐️
+- [25. 클래스](./javascript-deep-dive/25_class.md) ⭐️
 
 
 ## React.js
