@@ -39,6 +39,6 @@
 
 ## React.js
 
-### 📖모던 리액트 Deep Dive
+### 📖 모던 리액트 Deep Dive
 
 - [12. 핵심 웹 지표](./react-deep-dive/12_core_web_vital.md)
