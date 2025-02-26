@@ -27,13 +27,13 @@ Q. React는 DOM을 효율적으로 업데이트하기 위해 Diffing 알고리�
 
 ## React 렌더링 프로세스
 
-현대 웹에서 유저 인터렉션이 많아지고 그에 따른 DOM 수정사항이 많아지게 되면서 Reflow, Repaint가 자주 일어나 성능적 문제가 발생하게 됐다. 
+현대 웹에서 유저 인터렉션이 많아지고 그에 따른 DOM 수정사항이 많아지게 되면서 Reflow, Repaint가 자주 일어나 성능적 문제가 발생하게 됐다.
 
 이를 해결하기 위해 리액트는 자신만의 렌더링 프로세스를 만들어서 'DOM 변경을 추적해서 하나하나 문제점을 해결하는 최적화' 과정과 같은 수고스러움을 덜어주기 위해 **가상 DOM**(Virtual DOM) 개념을 도입하게 되었다.
 
 Virtual DOM은 아래와 같은 렌더링 프로세스를 거친다.
 
-![react-render-and-commit](render-and-commit.png)
+![react-render-and-commit](./screenshot/render-and-commit.png)
 
 (참고 - [React render and commit](https://react.dev/learn/render-and-commit))
 
@@ -53,12 +53,12 @@ Virtual DOM은 아래와 같은 렌더링 프로세스를 거친다.
 
 ## DOM Update가 발생되면
 
-![virtual-dom-updated](virtual-dom.png)
+![virtual-dom-updated](./screenshot/virtual-dom.png)
 
 1. 변경된 UI가 반영된 Next Virtual DOM을 만든다.
 2. Next Virtual DOM 기반으로 Prev Virtual DOM과 비교하여 차이점만 업데이트 한다.
-	- 이때, 업데이트를 위해 차이점을 찾기 위해 사용되는 알고리즘이 비교(Diffing) 알고리즘
-	- 해당 과정 전체를 재조정(Reconciliation)이라고 한다.
+   - 이때, 업데이트를 위해 차이점을 찾기 위해 사용되는 알고리즘이 비교(Diffing) 알고리즘
+   - 해당 과정 전체를 재조정(Reconciliation)이라고 한다.
 3. Commit Phase로 넘어가서 실제 DOM에 반영한다.
 
 ## 정리
